@@ -2,12 +2,9 @@ name = "geo-tracker"
 main = "src/index.js"
 compatibility_date = "2026-11-09"
 
-[triggers]
-crons = [ "0 0 * * *" ]
-
 [[d1_databases]]
 binding = "DB"
-database_name = "geo analytics db"
+database_name = "geo-analytics-db"
 database_id = "62e0c4bc-b2df-4048-8ad6-c5b9f3d721b6"
 
 [ai]
